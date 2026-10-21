@@ -22,4 +22,6 @@ and will continue execution from the point of pause of the same routine.
 for Asynchronous tasks to execute , there is a requirement of Event Loop.
 Event loop is a runtiume mechanism which ensures the execution status of the routines.
 
+*In the above routine, asyncio.run() will automatically creates a Event Loop for executing greet().
+
 """
